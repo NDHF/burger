@@ -1,0 +1,61 @@
+body {
+  background-color: burlywood;
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+  background: #faebd7;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+img {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    filter: brightness(75%);
+}
+
+h1 {
+  font-family: 'Ewert';
+  font-size: 500%;
+  text-align: center;
+  transform: rotate(-20deg);
+  position: absolute;
+  top: 125px;
+  left: 60px;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Gravitas One"
+}
+
+form {
+  text-align: center;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 span {
+  color: white;
+  text-shadow: -4px -4px 0 #000,  
+  4px -4px 0 #000,
+  -4px 4px 0 #000,
+   4px 4px 0 #000;
+}
