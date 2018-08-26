@@ -19,13 +19,15 @@ $(function() {
         location.reload();
       }
     );
-  });
+    var yeehaw = new Audio();
+  yeehaw.src = "assets/audio/yeehaw.mp3";
 
-  var yeehaw = new Audio();
+  function playYeehaw() {
+	yeehaw.play();
+	console.log("Yeehaw was played.");
+  }
 
-  $("button#submitButton").on("click", function() {
-    yeehaw.play();
-    console.log("Yeehaw was played.");
+  playYeehaw();
   });
 
   $(".create-form").on("submit", function(event) {
